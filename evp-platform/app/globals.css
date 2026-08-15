@@ -41,3 +41,58 @@ h1,h2,h3{font-family:var(--display);font-weight:600;letter-spacing:.03em;margin:
 .card .nm{font-weight:600;font-size:13.5px;margin-bottom:4px}
 .card .m{font-size:11.5px;color:var(--slate);display:flex;flex-wrap:wrap;gap:3px 10px}
 .card .m b{color:var(--navy)}
+a.card{display:block;color:var(--navy)}
+a.card:hover{border-color:var(--brass)}
+.hd .nav{display:flex;gap:16px;margin-left:22px}
+.hd .nav a{color:rgba(255,255,255,.82);font-size:12px;font-weight:500;letter-spacing:.04em;text-transform:uppercase}
+.hd .nav a:hover{color:var(--brass)}
+
+/* --- Trip Builder ------------------------------------------------------- */
+.tb-grid{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:18px;align-items:start}
+.tb-side{position:sticky;top:18px}
+.tb-fields{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}
+.tb-fields label,.tb-block{display:flex;flex-direction:column;gap:5px;font-size:11px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:var(--slate)}
+.tb-block{margin-bottom:12px}
+.tb input,.tb select,.tb textarea{padding:8px;border:1px solid var(--border);font-family:var(--body);font-size:13px;background:#fff;color:var(--navy);border-radius:0}
+.tb textarea{font-family:var(--body);resize:vertical}
+.tb input.mono{font-family:var(--mono)}
+.tb input.r{text-align:right}
+.tb-head,.tb-row{display:grid;grid-template-columns:112px minmax(0,1fr) 62px 92px 96px 132px;gap:8px;align-items:center}
+.tb-head{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);padding-bottom:7px;border-bottom:1px solid var(--border);margin-bottom:9px}
+.tb-head .r{text-align:right}
+.tb-row{padding:7px 0;border-bottom:1px solid var(--mist)}
+.tb-row.opt{background:rgba(176,141,87,.06)}
+.tb-desc{display:flex;flex-direction:column;gap:4px;min-width:0}
+.tb-desc .sub{font-size:11.5px;color:var(--slate)}
+.tb-total{font-size:13px}
+.tb-ctl{display:flex;align-items:center;gap:5px;justify-content:flex-end}
+.tb-ctl button{border:1px solid var(--border);background:#fff;color:var(--slate);width:24px;height:24px;line-height:1;cursor:pointer;border-radius:0;font-size:13px}
+.tb-ctl button:hover:not(:disabled){border-color:var(--navy);color:var(--navy)}
+.tb-ctl button:disabled{opacity:.3;cursor:default}
+.tb-opt{display:flex;align-items:center;gap:3px;font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.1em;color:var(--slate);cursor:pointer}
+.tb-opt input{width:13px;height:13px}
+.tb .btn.ghost.sm{margin-top:12px}
+.tb-line{display:flex;justify-content:space-between;align-items:baseline;padding:6px 0;font-size:13px;border-bottom:1px solid var(--mist)}
+.tb-line.tot{border-top:2px solid var(--navy);border-bottom:none;margin-top:5px;padding-top:9px;font-size:15px}
+.tb-line.tot b{font-size:19px}
+.tb-line.opt-note{color:var(--brass);border-bottom:none}
+.tb-take{margin-top:11px;font-family:var(--mono);font-size:10px;letter-spacing:.13em;text-transform:uppercase;color:var(--slate)}
+.tb-take b{color:var(--navy);font-size:13px;letter-spacing:0}
+.tb-hint{margin:0 0 11px;font-size:11.5px;color:var(--slate)}
+.tb-fee{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:9px 0;border-bottom:1px solid var(--mist)}
+.tb-fee.on{background:rgba(46,95,134,.07);padding-left:7px;padding-right:7px;border-left:2px solid var(--horizon)}
+.tb-fee-l{font-size:12.5px;font-weight:600}
+.tb-fee-n{font-size:10.5px;color:var(--slate);margin-top:2px}
+.tb-fee-r{display:flex;align-items:center;gap:8px;white-space:nowrap}
+.tb-fee-r .btn{margin-top:0}
+.tb-save{display:flex;gap:9px}
+.tb-save .btn{flex:1;margin-top:0}
+.tb-errs{margin:7px 0 0;padding-left:17px;font-size:12px}
+.tb-list-head,.tb-list-row{display:grid;grid-template-columns:minmax(0,1fr) 120px 84px 62px 94px 104px;gap:10px;align-items:center}
+.tb-list-head{font-family:var(--mono);font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--slate);padding-bottom:8px;border-bottom:1px solid var(--border)}
+.tb-list-head .r{text-align:right}
+.tb-list-row{padding:11px 0;border-bottom:1px solid var(--mist);font-size:13px}
+.tb-list-row .nm{font-weight:600}
+.tb-list-row .sub{font-size:11.5px;color:var(--slate);margin-top:2px}
+.tb-list-row .r{text-align:right}
+@media (max-width:1000px){.tb-grid{grid-template-columns:1fr}.tb-side{position:static}.tb-head{display:none}.tb-row{grid-template-columns:1fr 1fr;gap:6px}.tb-fields{grid-template-columns:1fr 1fr}}

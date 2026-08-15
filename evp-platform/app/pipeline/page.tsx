@@ -34,10 +34,10 @@ export default async function Pipeline() {
               <div className="col" key={stage}>
                 <h3>{stage}<span>{inStage.length}</span></h3>
                 {inStage.map((t: any) => (
-                  <div className="card" key={t.id}>
+                  <a className="card" key={t.id} href={`/trips/${t.slug}/build`}>
                     <div className="nm">{t.name}</div>
                     <div className="m"><span>📍 <b>{t.destination}</b></span><span>👥 <b>{t.planned_travelers}</b></span><span>fee <b>{fmt(Number(t.evp_fee || 0))}</b></span></div>
-                  </div>
+                  </a>
                 ))}
               </div>
             );
