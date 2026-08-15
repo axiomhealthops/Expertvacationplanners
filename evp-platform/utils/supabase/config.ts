@@ -1,0 +1,2 @@
+export const SUPA_URL = process.env.NEXT_PUBLIC_SUPABASE_URL ?? 'https://dllxcomzadetidjmhdkw.supabase.co';
+export const SUPA_ANON = process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRsbHhjb216YWRldGlkam1oZGt3Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODY4MDc0NjIsImV4cCI6MjEwMjM4MzQ2Mn0.7nf5nBPrAuxw00auBT7B3C6YEAVyLihWXEaVcRu5NYI';

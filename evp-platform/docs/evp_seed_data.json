@@ -1,0 +1,2015 @@
+{
+ "agency": "Expert Vacation Planners",
+ "stages": [
+  "Lead",
+  "Proposal Sent",
+  "Booked",
+  "Final Payment",
+  "Pre-Trip",
+  "Traveling",
+  "Completed"
+ ],
+ "trips": [
+  {
+   "id": "hilton-head-2026",
+   "name": "Retired General Officers Reunion",
+   "client": "Retired General Officers Reunion Group",
+   "destination": "Hilton Head, SC",
+   "stage": "Pre-Trip",
+   "startDate": "2026-09-13",
+   "endDate": "2026-09-17",
+   "plannedTravelers": 37,
+   "perPerson": 418.21,
+   "evpFee": 1850.0,
+   "budget": [
+    {
+     "cat": "Welcome Reception",
+     "item": "Food",
+     "amount": 3716.0,
+     "note": "",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Welcome Reception",
+     "item": "Bar",
+     "amount": 0.0,
+     "note": "Cash bar (paid on site)",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Tours",
+     "item": "Trolley Tour",
+     "amount": 1503.68,
+     "note": "Includes $750 deposit paid by Jeff",
+     "link": "https://docs.google.com/document/d/1MSA-t4kJ05DRkzUfuIbelp8g6-kEUeImvbCoLLxlTbg/edit?usp=sharing",
+     "depositPaid": 750.0,
+     "commissionable": true,
+     "commRate": 10,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Tours",
+     "item": "Sea Pines",
+     "amount": 130.0,
+     "note": "13 cars",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 10,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Dinner + Lunches",
+     "item": "Farewell Dinner",
+     "amount": 3149.0,
+     "note": "",
+     "link": "https://app.perfectvenue.com/proposals/_P5h37ioljU",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 10,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Dinner + Lunches",
+     "item": "Shrimp Boil",
+     "amount": 3200.0,
+     "note": "$80/head est.",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Misc.",
+     "item": "Charter Bus",
+     "amount": 1925.0,
+     "note": "",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": true,
+     "commRate": 10,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Misc.",
+     "item": "Planning + Event Coordination",
+     "amount": 1850.0,
+     "note": "EVP coordination fee (your revenue)",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    }
+   ],
+   "roster": [
+    {
+     "name": "Bobbi Lionetti",
+     "guests": "Laura Barton, Michael Barton, Donald Lionetti jr",
+     "party": 4,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Attending (Full Day)"
+     },
+     "email": "bbilionetti@aol.com",
+     "phone": "8134049467",
+     "diet": "No",
+     "paid": true,
+     "docs": true,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Charles (Chuck) Anderson",
+     "guests": "Tamara L Anderson",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "charlesallananderson@gmail.com",
+     "phone": "719-648-4702",
+     "diet": "",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Dan Karbler",
+     "guests": "Leah",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "",
+      "Sep 15": "",
+      "Sep 16": "",
+      "Sep 17": "Departing"
+     },
+     "email": "dkarbler@aol.com",
+     "phone": "7039923598",
+     "diet": "No",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Dan Montgomery",
+     "guests": "Phyllis Montgomery",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "d.montgomery@sdefenses.com",
+     "phone": "2566580441",
+     "diet": "No",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "David K. Heebner",
+     "guests": "Carol Morse Orr",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "HEEBNERD@AOL.COM",
+     "phone": "+17035173304",
+     "diet": "none",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Dennis Cavin",
+     "guests": "Judy Sindle",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving, Attending (Full Day)",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "cavindd@hmail.com",
+     "phone": "6154773895",
+     "diet": "None",
+     "paid": true,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "FRAN MAHON",
+     "guests": "BITSY MAHON",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "fgmahon@gmail.com",
+     "phone": "915.276.1776",
+     "diet": "BITSY - NO: POTATOES, RICE, CHICKEN, PEANUTS, OR SOY BEANS",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Jeffrey and Teresa Horne",
+     "guests": "Terri",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving, Attending (Full Day)",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Attending (Full Day)"
+     },
+     "email": "jhorne52@gmail.com",
+     "phone": "703-987-0768",
+     "diet": "no",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Jim Cravens",
+     "guests": "Jo Beth Cravens",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving, Attending (Full Day)",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "jjcravensjr@aol.com",
+     "phone": "8649158871",
+     "diet": "No restrictions",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Jim Dickinson",
+     "guests": "Angie Dickinson",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "jdickin260@gmail.com",
+     "phone": "9158731895",
+     "diet": "none",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Jim Madora",
+     "guests": "Pat",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "ajmplcm@aol.com",
+     "phone": "571-238-5012",
+     "diet": "No",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "John Little",
+     "guests": "Leigh and Joe DiSalvo",
+     "party": 3,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "",
+      "Sep 15": "",
+      "Sep 16": "",
+      "Sep 17": "Departing"
+     },
+     "email": "jhlittle1880@me.com",
+     "phone": "(727)460-8173",
+     "diet": "",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Joseph Garrett (Skip)",
+     "guests": "Julie Eggen",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "garrett_skip@comcast.net",
+     "phone": "8283186526",
+     "diet": "None",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Joseph m cosumano jr",
+     "guests": "Chanelle cosumano",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "",
+      "Sep 14": "Arriving",
+      "Sep 15": "",
+      "Sep 16": "",
+      "Sep 17": "Departing"
+     },
+     "email": "cjcjr77@att.net",
+     "phone": "2562899760",
+     "diet": "None",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Marvin \"Keith\" McNamara",
+     "guests": "Chris",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "mcnamarm@aol.com",
+     "phone": "7039754809",
+     "diet": "none",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Micki Costello",
+     "guests": "",
+     "party": 1,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "mvc.uptownart@gmail.com",
+     "phone": "214.770.4140",
+     "diet": "none",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Peter C Franklin",
+     "guests": "Diane",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "Pfranklin11@gmail.com",
+     "phone": "7035871779",
+     "diet": "No",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Robert  Drolet",
+     "guests": "Ann",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "Attending (Full Day)",
+      "Sep 15": "Attending (Full Day)",
+      "Sep 16": "Attending (Full Day)",
+      "Sep 17": "Departing"
+     },
+     "email": "drolet2641@gmail.com",
+     "phone": "2566522950",
+     "diet": "no",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Robert Lennox",
+     "guests": "Jenny",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "",
+      "Sep 15": "",
+      "Sep 16": "",
+      "Sep 17": "Departing"
+     },
+     "email": "robert.p.lennox@gmail.com",
+     "phone": "7033074778",
+     "diet": "none",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Stanley E. Green",
+     "guests": "Pamela A.Green",
+     "party": 2,
+     "rsvp": "Pending",
+     "days": {
+      "Sep 13": "Arriving",
+      "Sep 14": "",
+      "Sep 15": "",
+      "Sep 16": "",
+      "Sep 17": ""
+     },
+     "email": "Adashooter@gmail.com",
+     "phone": "972.965.4441",
+     "diet": "No",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "William Bond",
+     "guests": "Mary",
+     "party": 2,
+     "rsvp": "Pending",
+     "days": {
+      "Sep 13": "",
+      "Sep 14": "",
+      "Sep 15": "",
+      "Sep 16": "",
+      "Sep 17": ""
+     },
+     "email": "william.bond@verizon.net",
+     "phone": "(703) 400-3450",
+     "diet": "No",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    },
+    {
+     "name": "Jay Garner",
+     "guests": "Connie Garner",
+     "party": 2,
+     "rsvp": "Confirmed",
+     "days": {
+      "Sep 13": "",
+      "Sep 14": "",
+      "Sep 15": "",
+      "Sep 16": "",
+      "Sep 17": ""
+     },
+     "email": "jcrenrag@aol.com",
+     "phone": "",
+     "diet": "handicap room",
+     "paid": false,
+     "docs": false,
+     "lastContact": "2026-07-15",
+     "note": ""
+    }
+   ],
+   "comms": [
+    {
+     "date": "2025-11-04",
+     "dir": "Outbound",
+     "channel": "Email",
+     "subject": "RSVP form opened to the group",
+     "who": "All 22 households",
+     "status": "Replied"
+    },
+    {
+     "date": "2026-03-18",
+     "dir": "Inbound",
+     "channel": "Email",
+     "subject": "Final late RSVPs received (Cosumano, Karbler)",
+     "who": "2 households",
+     "status": "Closed"
+    },
+    {
+     "date": "2026-06-20",
+     "dir": "Outbound",
+     "channel": "Email",
+     "subject": "Save-the-date + trip overview refresh",
+     "who": "All confirmed",
+     "status": "Replied"
+    },
+    {
+     "date": "2026-07-15",
+     "dir": "Outbound",
+     "channel": "Email",
+     "subject": "Payment request \u2014 $418.21/person due",
+     "who": "All confirmed",
+     "status": "Awaiting reply",
+     "followUp": "2026-08-01"
+    }
+   ],
+   "sample": false,
+   "poc": {
+    "name": "Jeff Horne (group organizer)",
+    "email": "jhorne52@gmail.com",
+    "phone": "703-987-0768"
+   },
+   "nextFollowUp": {
+    "date": "2026-08-15",
+    "note": "Send final details & itinerary (~2 wks before arrival)"
+   }
+  },
+  {
+   "id": "tampa-supercup-2026",
+   "name": "Tampa Bay Super Cup \u2014 Stars Academy",
+   "client": "Connor Williams (Stars Academy)",
+   "destination": "Odessa / Tampa, FL",
+   "stage": "Booked",
+   "startDate": "2026-10-23",
+   "endDate": "2026-10-25",
+   "plannedTravelers": 47,
+   "coaches": 5,
+   "totalPeople": 160,
+   "perPerson": 400.0,
+   "evpFee": 4890.0,
+   "budget": [
+    {
+     "cat": "Transport",
+     "item": "Charter coach \u2014 Orlando \u21c4 Tampa (round trip)",
+     "amount": 3000.0,
+     "note": "56-pax motorcoach, Fri arrival + Sun return",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Transport",
+     "item": "Sprinter van shuttles \u2014 hotel \u21c4 Sportsplex",
+     "amount": 8100.0,
+     "note": "3 vans \u00d7 2 days (Sat & Sun) \u00d7 $1,350 \u2014 CONFIRM van count with quote",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Dinner",
+     "item": "Saturday team dinner (buffet)",
+     "amount": 2000.0,
+     "note": "~57 players + coaches @ ~$35 all-in; meeting room waived vs F&B min",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Coaches",
+     "item": "Coach lodging comp",
+     "amount": 810.0,
+     "note": "3 rooms \u00d7 2 nights \u00d7 $135 (club-comped)",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    },
+    {
+     "cat": "Misc.",
+     "item": "Planning + Event Coordination",
+     "amount": 4890.0,
+     "note": "EVP coordination margin \u2014 blended into per-player price on client invoice",
+     "link": "",
+     "depositPaid": 0,
+     "commissionable": false,
+     "commRate": 0,
+     "commStatus": "Expected"
+    }
+   ],
+   "roster": [],
+   "comms": [
+    {
+     "date": "2026-08-14",
+     "dir": "Inbound",
+     "channel": "Call",
+     "subject": "Connor confirmed \u2014 move forward, wants full invoice",
+     "who": "Connor Williams",
+     "status": "Closed"
+    }
+   ],
+   "poc": {
+    "name": "Connor Williams",
+    "email": "",
+    "phone": ""
+   },
+   "nextFollowUp": {
+    "date": "2026-08-16",
+    "note": "Send per-player invoice + deposit link"
+   },
+   "teams": [
+    {
+     "name": "U8",
+     "players": 10,
+     "note": "Most dedicated parent group in the club \u2014 commits to every event"
+    },
+    {
+     "name": "U10",
+     "players": 10,
+     "note": "#1 team, very structured \u2014 will pay up front"
+    },
+    {
+     "name": "U12",
+     "players": 12,
+     "note": "Traveled to Paris this summer \u2014 conditioned to pay for travel"
+    },
+    {
+     "name": "U13",
+     "players": 15,
+     "note": "Traveled to Paris this summer \u2014 conditioned to pay for travel"
+    }
+   ],
+   "venue": "Tournament Sportsplex of Tampa Bay",
+   "stayToPlay": "AwayTeam Travel (housing partner) \u2014 booking deadline Oct 24; 70% of roster must book in block",
+   "pkgIncludes": [
+    "Round-trip charter coach: Orlando \u21c4 Tampa",
+    "Hotel \u21c4 Tournament Sportsplex van shuttles (Sat & Sun)",
+    "Saturday team dinner",
+    "Full trip coordination + single on-site point of contact",
+    "Coaches\u2019 travel included"
+   ],
+   "lodging": {
+    "standardPerRoom": 300.0,
+    "upgradedPerRoom": 400.0,
+    "nights": 2,
+    "note": "Booked through the required AwayTeam Travel stay-to-play block and paid by each family \u2014 not included in the EVP package price.",
+    "rateNote": "$140\u2013$160/night average (est., confirmed on block)"
+   },
+   "addons": [
+    {
+     "label": "Family team-dinner seat",
+     "amount": 45,
+     "unit": "person"
+    },
+    {
+     "label": "Family welcome kit",
+     "amount": 15,
+     "unit": "person"
+    },
+    {
+     "label": "Weekend shuttle pass (family)",
+     "amount": 25,
+     "unit": "person"
+    },
+    {
+     "label": "Upgraded room (per room, 2 nights)",
+     "amount": 130,
+     "unit": "room"
+    }
+   ],
+   "depositPct": 25,
+   "sample": false,
+   "feeNote": "Priced per player (one roster spot) \u2014 one fee per player, regardless of family size. Rooms are per family; the extras above are per person."
+  },
+  {
+   "id": "sample-napa",
+   "name": "[SAMPLE] Napa Valley Anniversary",
+   "client": "Sample Client",
+   "destination": "Napa, CA",
+   "stage": "Proposal Sent",
+   "startDate": "2026-10-10",
+   "endDate": "2026-10-14",
+   "plannedTravelers": 2,
+   "perPerson": 0,
+   "evpFee": 600,
+   "budget": [],
+   "roster": [],
+   "comms": [
+    {
+     "date": "2026-07-22",
+     "dir": "Outbound",
+     "channel": "Email",
+     "subject": "Napa proposal & pricing sent",
+     "who": "Client",
+     "status": "Awaiting reply",
+     "followUp": "2026-07-29"
+    }
+   ],
+   "sample": true,
+   "poc": {
+    "name": "Sample Client",
+    "email": "client@example.com",
+    "phone": ""
+   },
+   "nextFollowUp": {
+    "date": "2026-07-29",
+    "note": "Follow up on proposal \u2014 decision expected"
+   }
+  },
+  {
+   "id": "sample-inquiry",
+   "name": "[SAMPLE] Aspen Corporate Retreat",
+   "client": "Sample Client",
+   "destination": "Aspen, CO",
+   "stage": "Lead",
+   "startDate": "2027-01-15",
+   "endDate": "2027-01-19",
+   "plannedTravelers": 24,
+   "perPerson": 0,
+   "evpFee": 2500,
+   "budget": [],
+   "roster": [],
+   "comms": [],
+   "sample": true,
+   "poc": {
+    "name": "Sample Client",
+    "email": "client@example.com",
+    "phone": ""
+   },
+   "nextFollowUp": {
+    "date": "2026-07-31",
+    "note": "First discovery call \u2014 intro outreach"
+   }
+  }
+ ],
+ "contacts": [
+  {
+   "id": "c-U8-1",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-2",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-3",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-4",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-5",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-6",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-7",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-8",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-9",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U8-10",
+   "group": "Stars Academy",
+   "team": "U8",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-1",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-2",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-3",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-4",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-5",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-6",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-7",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-8",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-9",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U10-10",
+   "group": "Stars Academy",
+   "team": "U10",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-1",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-2",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-3",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-4",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-5",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-6",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-7",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-8",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-9",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-10",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-11",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U12-12",
+   "group": "Stars Academy",
+   "team": "U12",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-1",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-2",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-3",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-4",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-5",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-6",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-7",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-8",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-9",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-10",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-11",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-12",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-13",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-14",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-U13-15",
+   "group": "Stars Academy",
+   "team": "U13",
+   "role": "Family",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "Collect contact + payment for Tampa Super Cup",
+   "notes": ""
+  },
+  {
+   "id": "c-coach-1",
+   "group": "Stars Academy",
+   "team": "Staff",
+   "role": "Coach",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "",
+   "notes": ""
+  },
+  {
+   "id": "c-coach-2",
+   "group": "Stars Academy",
+   "team": "Staff",
+   "role": "Coach",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "",
+   "notes": ""
+  },
+  {
+   "id": "c-coach-3",
+   "group": "Stars Academy",
+   "team": "Staff",
+   "role": "Coach",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "",
+   "notes": ""
+  },
+  {
+   "id": "c-coach-4",
+   "group": "Stars Academy",
+   "team": "Staff",
+   "role": "Coach",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "",
+   "notes": ""
+  },
+  {
+   "id": "c-coach-5",
+   "group": "Stars Academy",
+   "team": "Staff",
+   "role": "Coach",
+   "tripId": "tampa-supercup-2026",
+   "playerName": "",
+   "prefix": "",
+   "firstName": "",
+   "lastName": "",
+   "email": "",
+   "mobile": "",
+   "addr": {
+    "country": "United States",
+    "line1": "",
+    "city": "",
+    "state": "",
+    "zip": ""
+   },
+   "dietary": "",
+   "nextStep": "",
+   "notes": ""
+  }
+ ]
+}
