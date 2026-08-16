@@ -24,8 +24,14 @@ export default async function Quote({ params }: { params: { slug: string } }) {
   const lineTotal = (i: any) => (Number(i.qty) || 1) * (Number(i.unit_price) || 0);
   const vendor = lines.reduce((a, i) => a + lineTotal(i), 0);
   const clientTotal = vendor + Number(trip.evp_fee || 0);
-  const per = trip.total_people > 0 ? clientTotal / trip.total_people : 0;
+  const headcount = Number(trip.total_people) || Number(trip.planned_travelers) || 0;
+  const per = headcount > 0 ? clientTotal / headcount : 0;
   const deposit = clientTotal * ((trip.deposit_pct || 25) / 100);
+
+  // With no priced lines the "total" is nothing but the EVP fee, which reads as
+  // a real price to the client and is wrong by orders of magnitude on a group
+  // trip. Show nothing rather than something false.
+  const hasLines = lines.length > 0;
   const clientName = client ? `${client.first_name || ""} ${client.last_name || ""}`.trim() : trip.client_name;
 
   return (
@@ -34,6 +40,7 @@ export default async function Quote({ params }: { params: { slug: string } }) {
         <h1 style={{ fontSize: 18 }}>Quote — {trip.name}</h1>
         <div className="spacer" />
         <Link href={`/trips/${trip.slug}`} className="badge">← Trip</Link>
+        <Link href={`/trips/${trip.slug}/edit`} className="btn ghost">Edit</Link>
         <PrintButton />
       </div>
       <div className="content quotewrap">
@@ -76,11 +83,19 @@ export default async function Quote({ params }: { params: { slug: string } }) {
               </table>
             </div>
 
-            <div className="qtotals">
-              <div className="qtrow"><span>Package total</span><span className="mono">{money(clientTotal)}</span></div>
-              {trip.total_people > 1 && <div className="qtrow sub"><span>Per person</span><span className="mono">{money(per)}</span></div>}
-              <div className="qtrow big"><span>Deposit to reserve ({trip.deposit_pct || 25}%)</span><span className="mono">{money(deposit)}</span></div>
-            </div>
+            {hasLines ? (
+              <div className="qtotals">
+                <div className="qtrow"><span>Package total</span><span className="mono">{money(clientTotal)}</span></div>
+                {headcount > 1 && <div className="qtrow sub"><span>Per person</span><span className="mono">{money(per)}</span></div>}
+                <div className="qtrow big"><span>Deposit to reserve ({trip.deposit_pct || 25}%)</span><span className="mono">{money(deposit)}</span></div>
+              </div>
+            ) : (
+              <div className="qnote noprint">
+                <b>Not ready to send.</b> This trip has no priced itinerary lines, so there is no total to quote.
+                Publishing it now would show {money(clientTotal)} — your EVP fee on its own, not the price of the trip.{" "}
+                <Link href={`/trips/${trip.slug}/edit`}>Add the itinerary</Link> first.
+              </div>
+            )}
 
             {optional.length > 0 && (
               <div className="qsec">

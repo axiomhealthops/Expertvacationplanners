@@ -51,6 +51,7 @@ export default async function TripDetail({
         <div className="spacer" />
         <Link href="/pipeline" className="badge">← Pipeline</Link>
         <span className="badge navy">{trip.stage}</span>
+        <Link href={`/trips/${trip.slug}/edit`} className="btn ghost">Edit Trip</Link>
         <Link href={`/trips/${trip.slug}/quote`} className="btn">View Quote</Link>
       </div>
       <div className="content">
