@@ -3,3 +3,8 @@ node_modules/
 .vercel/
 *.log
 .DS_Store
+*.tsbuildinfo
+next-env.d.ts.timestamp
+.env
+.env.local
+.env*.local
